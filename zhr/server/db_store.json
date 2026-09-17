@@ -1,0 +1,129 @@
+{
+  "users": [
+    {
+      "id": "usr-admin-1",
+      "username": "مسؤول مِدادُ زَهْر",
+      "email": "admin@medadzahr.com",
+      "role": "admin",
+      "provider": "email",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=300&q=80",
+      "stats": {
+        "booksRead": 25,
+        "pagesRead": 6400,
+        "streakDays": 14
+      }
+    },
+    {
+      "id": "usr-1789601975016",
+      "stats": {
+        "booksRead": 0,
+        "pagesRead": 0,
+        "streakDays": 1
+      },
+      "username": "أحمد العلي (Google)",
+      "email": "ahmed.ali@gmail.com",
+      "role": "user",
+      "provider": "google",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=300&q=80"
+    }
+  ],
+  "books": [
+    {
+      "id": "book-1",
+      "title": "ثلاثية غرناطة",
+      "titleEn": "Granada Trilogy",
+      "author": "رضوى عاشور",
+      "authorBio": "كاتبة وروائية ومترقدة مصرية استثنائية، عُرِفت بأعمالها الأدبية التاريخية والإنسانية العملاقة.",
+      "category": "novels",
+      "genre": "تاريخي وروايات أدبية",
+      "language": "ar",
+      "cover": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=600&q=80",
+      "rating": 4.9,
+      "ratingCount": 342,
+      "pages": 512,
+      "safeStatus": "VERIFIED_CLEAN",
+      "synopsis": "ملحمة أدبية تاريخية تُبحر بنا في تفاصيل سقوط غرناطة وحياة العائلات الأندلسية بعد أفول حكم المسلمين، محبوكة بأسلوب شعري دافئ يسلب الألباب.",
+      "chapters": [
+        {
+          "title": "الفصل الأول: أبواب البيازين",
+          "content": "كان الشارع يسكن ببطء مع هبوط الليل على جبال البشرات. جلس أبو جعفر في دكانه يلملم أوراق الكتب العتيقة، ويتأمل الزخارف المكتوبة بماء الذهب. كانت الأندلس تشهد تحولاً تاريخياً مهيباً..."
+        },
+        {
+          "title": "الفصل الثاني: ظلال الرماد",
+          "content": "في الصباح التالي، اجتمعت العائلة حول الموقد الدافئ. قالت مريمة بصوت خفيض: الأشجار لا ترحل يا مريمة، تبقى جذورها متشبثة بالأرض مهما اشتدت العواصف."
+        }
+      ]
+    },
+    {
+      "id": "book-2",
+      "title": "The Prophet",
+      "titleEn": "The Prophet",
+      "author": "Kahlil Gibran",
+      "authorBio": "Lebanese-American writer, poet, and visual artist, best known for his philosophical masterpiece 'The Prophet'.",
+      "category": "poetry",
+      "genre": "Philosophy & Poetry",
+      "language": "en",
+      "cover": "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=600&q=80",
+      "rating": 4.95,
+      "ratingCount": 520,
+      "pages": 140,
+      "safeStatus": "VERIFIED_CLEAN",
+      "synopsis": "A timeless masterpiece composed of 26 poetic essays giving profound reflections on love, freedom, joy, sorrow, work, and the human spirit.",
+      "chapters": [
+        {
+          "title": "Chapter I: The Coming of the Ship",
+          "content": "Almustafa, the chosen and the beloved, who was a dawn unto his own day, had waited twelve years in the city of Orphalese for his ship that was to return and bear him back to the isle of his birth..."
+        },
+        {
+          "title": "Chapter II: On Love",
+          "content": "Then said Almitra, Speak to us of Love. And he raised his head and looked upon the people, and there fell a stillness upon them. And with a great voice he said: When love beckons to you, follow him..."
+        }
+      ]
+    }
+  ],
+  "poems": [
+    {
+      "id": "poem-1",
+      "title": "واحَرَّ قَلْباهُ مِمَّنْ قَلْبُهُ شَبِمُ",
+      "poet": "أبو الطيب المتنبي",
+      "era": "abbasid",
+      "category": "فخر وعتاب",
+      "likes": 1240,
+      "safeStatus": "VERIFIED_CLEAN",
+      "stanzas": [
+        "واحَرَّ قَلْباهُ مِمَّنْ قَلْبُهُ شَبِمُ | ومَنْ بجِسْمي وحالي عِنْدَهُ سَقَمُ",
+        "مالي أُكَتِّمُ حُبّاً قَدْ نَهَكْتُ بهِ | وتَدَّعي حُبَّ سَيْفِ الدَّوْلَةِ الأُمَمُ",
+        "إنْ كانَ يَجْمَعُنا حُبٌّ لِبُغْيَتِهِ | فَلَيْتَ أنَّا بقَدْرِ الحُبِّ نَقْتَسِمُ"
+      ]
+    }
+  ],
+  "quotes": [
+    {
+      "id": "q-1",
+      "userId": "usr-admin-1",
+      "quoteText": "الأشجار لا ترحل يا مريمة، تبقى جذورها متشبثة بالأرض مهما اشتدت العواصف.",
+      "bookTitle": "ثلاثية غرناطة",
+      "author": "رضوى عاشور",
+      "date": "2026-09-15"
+    }
+  ],
+  "comments": {
+    "book-1-chap-0": [
+      {
+        "username": "أحمد القارئ",
+        "comment": "بداية مذهلة لثلاثية غرناطة، تصف أدق التفاصيل النفسية والإنسانية.",
+        "date": "2026-09-16"
+      }
+    ]
+  },
+  "reviews": {
+    "book-1": [
+      {
+        "username": "سارة الأديبة",
+        "rating": 5,
+        "comment": "من أجمل ما قرأت في الأدب التاريخي العربي.",
+        "date": "2026-09-14"
+      }
+    ]
+  }
+}
